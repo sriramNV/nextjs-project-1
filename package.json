@@ -8,10 +8,16 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "packageManager": "bun@1.2.21",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "dependencies": {
+    "next": "15.5.2",
+    "next-auth": "^5.0.0-beta.29",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.2"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "typescript": "^5",
